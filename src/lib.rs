@@ -61,7 +61,7 @@ pub fn run<const L: usize>(mut systems: [Box<dyn TSystem>; L]) {
 
         rdh.clear_background(Color::BLACK);
 
-        println!("{:#?}", world);
+        //rendering WIP
     }
     handle.join().unwrap();
 }
